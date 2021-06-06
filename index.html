@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!-- Start of header -->
+    <div class="heading">My Calculator</div>
+    <!-- end of header -->
+
+    <!-- making of table -->
+    <table class="table-part">
+        <tr>
+            <td colspan="3"><input type="text" id="result"></td>
+            <td><input type="button" value="C" onclick="clr()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" onclick="dis('1')"style="border: 2px solid black ; background-color: silver;width:100%"></td>
+            <td><input type="button" value="2" onclick="dis('2')"style="border: 2px solid black ; background-color: silver;width:100%"></td>
+            <td><input type="button" value="3" onclick="dis('3')"style="border: 2px solid black ; background-color: silver;width:100%"></td>
+            <td><input type="button" value="/" onclick="dis('/')"style="border: 2px solid black ; background-color: silver;width:100%"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onclick="dis('4')"style="border: 2px solid black ; background-color: silver;width:100%"></td>
+            <td><input type="button" value="5" onclick="dis('5')"style="border: 2px solid black ; background-color: silver;width:100%"></td>
+            <td><input type="button" value="6" onclick="dis('6')"style="border: 2px solid black ; background-color: silver;width:100%"></td>
+            <td><input type="button" value="-" onclick="dis('-')"style="border: 2px solid black ; background-color: silver;width:100%"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" onclick="dis('7')"style="border: 2px solid black ; background-color: silver;width:100%"></td>
+            <td><input type="button" value="8" onclick="dis('8')"style="border: 2px solid black ; background-color: silver;width:100%"></td>
+            <td><input type="button" value="9" onclick="dis('9')"style="border: 2px solid black ; background-color: silver;width:100%"></td>
+            <td><input type="button" value="+" onclick="dis('+')"style="border: 2px solid black ; background-color: silver;width:100%"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="." onclick="dis('.')"style="border: 2px solid black ; background-color: silver;width:100%"></td>
+            <td><input type="button" value="0" onclick="dis('0')"style="border: 2px solid black ; background-color: silver;width:100%"></td>
+            <td><input type="button" value="=" onclick="solve()"style="border: 2px solid black ; background-color: silver;width:100%"></td>
+            <td><input type="button" value="*" onclick="dis('*')"style="border: 2px solid black ; background-color: silver;width:100%"></td>
+        </tr>
+    </table>
+    <!-- end of table -->
+</body>
+<script src="cal.js">
+</script>
+</html>

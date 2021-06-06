@@ -1,0 +1,18 @@
+.heading{
+    
+    width: 50%;
+    text-align: center;
+    background-color: rgb(23, 117, 23);
+ }
+ table,td{
+     border:2px solid black;
+     background-color: black;
+ }
+
+ td:hover{
+    background-color: crimson;
+ }
+
+ .table-part{
+     width:50%;
+ }
